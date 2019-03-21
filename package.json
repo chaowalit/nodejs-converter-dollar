@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-converter-dollar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "code-coverage": "jest --coverage",
+    "lint": "eslint index.js",
+    "dev": "nodemon"
+  },
+  "author": "Arthur Manuel Bandeira",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "lodash": "^4.17.10",
+    "moment": "^2.20.1",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "jest": "^23.0.0",
+    "nodemon": "^1.14.11"
+  }
+}
